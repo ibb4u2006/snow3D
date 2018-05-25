@@ -1,0 +1,10 @@
+Package: snow3DPackage
+Title: 3D plots of colour distribution in RGB and UV
+Version: 0.0.0.1
+Author: Ibrahim
+Description: Read and Identify segments of an image based on RGB colour values of a jpeg image.
+Depends: R (>= 3.2.2)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

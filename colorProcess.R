@@ -97,13 +97,13 @@ play3d(spin3d(axis = c(1,1,1), rpm = 3), duration = 10)
 
 movie3d ( spin3d(axis = c(1,1,1), rpm = 3), duration = 10)
 
-#Instead of play3d to generate gifs (requires imagemagick)
+#Instead of play3d to generate GIFs (requires imagemagick)
 
 #To generate the projections
 
 require("ggplot2")
 
-#perform PCA ont he snow3D data and add the UV coordinates to the dataframe
+#perform PCA on the snow3D data and add the UV coordinates to the dataframe
 PCA = prcomp(df[,c("red", "green", "blue")],
              center = TRUE, scale. = TRUE)
 df$u = PCA$x[,1]
